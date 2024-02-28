@@ -13,7 +13,7 @@
   <body>
     <div class="formcon">
       <form action="" class="form_main">
-        <p class="heading"><img src="image/coffe.png" /></p>
+        <p class="heading"><img src="Images/Logo/coffe.png" /></p>
         <div class="inputContainer">
           <span class="material-symbols-outlined inputIcon"
             >alternate_email</span
