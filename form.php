@@ -37,7 +37,6 @@
         </div>
 
         <button id="button">Login</button>
-        <a class="forgotLink" href="#">Forgot your password?</a>
       </form>
     </div>
   </body>
