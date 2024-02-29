@@ -48,7 +48,8 @@ body {
   font-size: 20px;
 }
 .navbar-header .logo {
-  width: 120px;
+  width: 70px;
+  margin: 10px;
 }
 .navbar-header .logo img {
   width: 100%;
@@ -178,7 +179,8 @@ button.next:hover {
   align-items: center;
 }
 .menu-logo img {
-  width: 120px;
+  width: 70px;
+  margin: 10px;
 }
 .sidebar-right {
   width: 400px;

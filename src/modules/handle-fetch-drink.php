@@ -1,0 +1,20 @@
+<?php
+session_start();
+require("db_connection.php");
+
+// $category_id = $_POST['category_id'];
+$get_drink_data_query = "SELECT drink_id ,drink_name, drink_price, drink_img FROM drink_tbl WHERE drink_category_id = '1'";
+
+$execute_fetch_query = $connection->query($get_drink_data_query);
+$result_num_row = $execute_fetch_query->num_rows;
+
+$data = array();
+$index = 0;
+
+while ($index <= $result_num_row) {
+    $row = $execute_fetch_query->fetch_assoc();
+    array_push($data, $row);
+    $index++;
+}
+
+echo json_encode(array("data" => $data, "num_row" => $result_num_row));
