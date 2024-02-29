@@ -239,6 +239,9 @@ div:has(> .bar-icon) {
   .sidebar-right.active {
     right: 0;
   }
+  .menu-logo {
+    justify-content: space-between;
+  }
   .cart-icon {
     display: inherit;
   }
