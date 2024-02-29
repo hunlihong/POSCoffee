@@ -19,4 +19,19 @@ $(document).ready(function () {
       $(this).remove();
     });
   });
+  $(window).resize(function () {
+    const width = $(window).innerWidth();
+    if (width > 992) {
+      if ($(".sidebar-left").hasClass("active")) {
+        $(".sidebar-left").removeClass("active");
+        $(".close").remove();
+      }
+    }
+    if (width > 578) {
+      if ($(".sidebar-right").hasClass("active")) {
+        $(".sidebar-right").removeClass("active");
+        $(".close").remove();
+      }
+    }
+  });
 });
