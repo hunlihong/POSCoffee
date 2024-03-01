@@ -24,7 +24,6 @@
         <input type="password" class="inputField" id="password-txt" placeholder="Password" />
       </div>
       <button type="button" id="button">Login</button>
-      <a class="forgotLink" href="#">Forgot your password?</a>
     </form>
   </div>
 
@@ -52,6 +51,7 @@
       let parsed_response = JSON.parse(response);
       if (parsed_response.status) {
         alert("sign-in success");
+        header("Location: menu.php");
       } else {
         alert("sign-in invalid");
       }

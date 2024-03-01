@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="./assets/css/menu.css" />
   <!-- jquery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 </head>
 
 <body>
@@ -24,14 +26,14 @@
 
   <div class="content-body">
     <div class="position-relative">
-      <div class="mt-0 sidebar-left w3-sidebar w3-light-grey w3-bar-block shadow-0" style="width: 225px">
+      <div id="categories" class="mt-0 sidebar-left w3-sidebar w3-light-grey w3-bar-block shadow-0" style="width: 225px">
         <h3 class="w3-bar-item py-2 d-flex justify-content-between align-items-center sidebar-menu">
           Menu
         </h3>
-        <a href="Menu.html" class="w3-bar-item w3-button">Ice Drinks</a>
+        <!-- <a href="Menu.html" class="w3-bar-item w3-button">Ice Drinks</a>
         <a href="IceLatte.html" class="w3-bar-item w3-button">Hot Drinkk</a>
         <a href="Menu.html" class="w3-bar-item w3-button">Frappe Drinks</a>
-        <a href="IceLatte.html" class="w3-bar-item w3-button">Soda Drinks</a>
+        <a href="IceLatte.html" class="w3-bar-item w3-button">Soda Drinks</a> -->
       </div>
     </div>
 
