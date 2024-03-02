@@ -31,4 +31,3 @@ while ($row = mysqli_fetch_assoc($result_num_row)) {
 
 $drinks = json_encode($data);
 echo $drinks;
-?>

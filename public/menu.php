@@ -209,7 +209,7 @@
         <div class="menu-logo d-flex justify-content-between">
           <img src="./assets/images/coffee.png" alt="logo" />
         </div>
-        <div class="all-in-one">
+        <!-- <div class="all-in-one">
           <div class="image-item">
             <img src="https://www.sageappliances.com/content/dam/breville-brands/coffeehub/language-masters/en_uk/recipes/recipe-hero-stills/Recipes_Banner8_1200x1200_IcedLatte.jpeg" alt="..." />
           </div>
@@ -227,70 +227,10 @@
             <p class="mb-0 d-flex justify-content-between">
               Total <span class="text-danger">$3.00</span>
             </p>
-          </div>
-        </div>
-        <div class="all-in-one">
-          <div class="image-item">
-            <img src="https://www.sageappliances.com/content/dam/breville-brands/coffeehub/language-masters/en_uk/recipes/recipe-hero-stills/Recipes_Banner8_1200x1200_IcedLatte.jpeg" alt="..." />
-          </div>
-
-          <div class="info-item w-100">
-            <p class="mb-0 d-flex justify-content-between">
-              Drink <span>Ice Latte</span>
-            </p>
-            <p class="mb-0 d-flex justify-content-between">
-              Price <span>$3.00</span>
-            </p>
-            <p class="mb-0 d-flex justify-content-between">
-              Quantity<span>1</span>
-            </p>
-            <p class="mb-0 d-flex justify-content-between">
-              Total <span class="text-danger">$3.00</span>
-            </p>
-          </div>
-        </div>
-        <div class="all-in-one">
-          <div class="image-item">
-            <img src="https://www.sageappliances.com/content/dam/breville-brands/coffeehub/language-masters/en_uk/recipes/recipe-hero-stills/Recipes_Banner8_1200x1200_IcedLatte.jpeg" alt="..." />
-          </div>
-
-          <div class="info-item w-100">
-            <p class="mb-0 d-flex justify-content-between">
-              Drink <span>Ice Latte</span>
-            </p>
-            <p class="mb-0 d-flex justify-content-between">
-              Price <span>$3.00</span>
-            </p>
-            <p class="mb-0 d-flex justify-content-between">
-              Quantity<span>1</span>
-            </p>
-            <p class="mb-0 d-flex justify-content-between">
-              Total <span class="text-danger">$3.00</span>
-            </p>
-          </div>
-        </div>
-        <div class="all-in-one">
-          <div class="image-item">
-            <img src="https://www.sageappliances.com/content/dam/breville-brands/coffeehub/language-masters/en_uk/recipes/recipe-hero-stills/Recipes_Banner8_1200x1200_IcedLatte.jpeg" alt="..." />
-          </div>
-
-          <div class="info-item w-100">
-            <p class="mb-0 d-flex justify-content-between">
-              Drink <span>Ice Latte</span>
-            </p>
-            <p class="mb-0 d-flex justify-content-between">
-              Price <span>$3.00</span>
-            </p>
-            <p class="mb-0 d-flex justify-content-between">
-              Quantity<span>1</span>
-            </p>
-            <p class="mb-0 d-flex justify-content-between">
-              Total <span class="text-danger">$3.00</span>
-            </p>
-          </div>
-        </div>
+          </div> -->
       </div>
     </div>
+  </div>
   </div>
   <script src="assets/js/script.js"></script>
 </body>
